@@ -3,6 +3,7 @@
 name: CI/CD
 
 # Exclude the workflow to run on changes to the helm chart
+# #paths-ignore, Any changes to these parts will not trigger CI pipeline
 on:
   push:
     branches:
